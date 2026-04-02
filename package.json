@@ -1,0 +1,15 @@
+{
+  "name": "@pipeworx/mcp-gamedeals",
+  "version": "1.0.0",
+  "description": "MCP server for video game deals via CheapShark API",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src"],
+  "scripts": { "build": "tsc", "check": "tsc --noEmit" },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "gamedeals"],
+  "author": "Pipeworx <hello@pipeworx.io>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/pipeworx-io/mcp-gamedeals.git" },
+  "devDependencies": { "typescript": "^5.7.0" }
+}
