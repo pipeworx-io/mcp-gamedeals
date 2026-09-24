@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/gamedeals",
+  "title": "Gamedeals",
+  "description": "Gamedeals MCP — wraps CheapShark API (game deal aggregator, no auth required)",
+  "version": "1.0.1",
+  "websiteUrl": "https://pipeworx.io/packs/gamedeals",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-gamedeals",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/gamedeals/mcp"
+    }
+  ]
+}
