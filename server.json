@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/gamedeals",
   "title": "Gamedeals",
   "description": "Gamedeals MCP — wraps CheapShark API (game deal aggregator, no auth required)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://pipeworx.io/packs/gamedeals",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-gamedeals",
