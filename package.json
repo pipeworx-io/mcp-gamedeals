@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-gamedeals",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gamedeals MCP — wraps CheapShark API (game deal aggregator, no auth required)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-219ff20a29948d28d5959f9f2fce6aff2ed43740547a7165b0afd75ba95b620d",
-    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
+    "sourceHash": "v1-da7ce8f2239a27ab06b29856174911890948265975a01a92da227bf3fdbfa57b",
+    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
   }
 }
