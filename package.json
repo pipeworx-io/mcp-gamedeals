@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-gamedeals",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Gamedeals MCP — wraps CheapShark API (game deal aggregator, no auth required)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-gamedeals": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "gamedeals"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-gamedeals.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/gamedeals",
   "pipeworx": {
-    "sourceHash": "v1-da7ce8f2239a27ab06b29856174911890948265975a01a92da227bf3fdbfa57b",
-    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
+    "mode": "gateway",
+    "slug": "gamedeals",
+    "gatewaySlug": "gamedeals",
+    "sourceHash": "v1-d1103bf48370d6a22da68f0404ca2cb279fa89d0e43cb9a0cb3ef9bc87a47265",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
